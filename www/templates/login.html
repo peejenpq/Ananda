@@ -1,0 +1,38 @@
+<ion-view>
+
+  <ion-nav-bar class="footerlogin">
+    <ion-nav-title class="footertext">
+      System Authentication
+    </ion-nav-title>
+
+  </ion-nav-bar>
+
+
+  <ion-content>
+
+    <div class="">
+      <div class="col">
+        <img src="img/ananda.jpg" class="imgCenter">
+
+        <div class="item-input-inset">
+          <p class="text1">User</p>
+          <label class="textbox"><input type="text" ng-model="form.txt_user" placeholder="Touch here"> </label>
+        </div>
+
+        <div class="item-input-inset">
+          <p class="text1">Pass</p>
+          <label class="textbox"><input type="password" ng-model="form.txt_pass" placeholder="Touch here"> </label>
+        </div>
+        <br>
+        <button class="button ion-unlocked btnlogin" ng-click="btnLogin(data)" > Login </button>
+      </div>
+    </div>
+
+  </ion-content>
+
+  <ion-footer-bar class="footerlogin">
+
+      <p class="footertext">Develop By CU</p>
+
+  </ion-footer-bar>
+</ion-view>

@@ -1,0 +1,108 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+  font-family: AppFont;
+  src: url("../assets/fonts/BalsamiqSansRegular.ttf");
+}
+
+body, span, button, h1, h2, h3, h4, h5, h6, p, ion-item, ion-title {
+  font-family: 'AppFont' !important;
+}
+
+.headtitle{
+  font-size: 26px;
+  color: blue;
+}
+.imgCenter{
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.imgPerson{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.imgRepair{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+.btnlogin {
+  border-bottom: 4px solid darkslategray;
+  border-right: 4px solid darkslategray;
+  background-color: yellow;
+  width:100%;
+}
+
+.btnGreen {
+  border-bottom: 4px solid darkslategray;
+  border-right: 4px solid darkslategray;
+  background-color: #2dfc8e;
+  width:100%;
+  color: white;
+}
+
+.btnBlue {
+  border-bottom: 4px solid darkslategray;
+  border-right: 4px solid darkslategray;
+  background-color: cyan;
+  width:100%;
+  color: white;
+}
+
+.textbox{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.footerlogin{
+  background-color: #d1d3d6;
+  color: #4b8bf4;
+  text-align: center;
+  border: 2px solid black;
+}
+.btnmain {
+  border-bottom: 4px solid darkslategray;
+  border-right: 4px solid darkslategray;
+  width:100%;
+}
+.text1 {
+  padding-top: 13px;
+  padding-right: 10px;
+}
+.footertext{
+  text-align: center;
+  color: #4b8bf4;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+  margin: 0 10px;
+  min-width: 30px;
+  height: 43px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.desc{
+  padding-top: 13px;
+  padding-right: 10px;
+}
+
+.desc1{
+  border: 2px solid gray;
+  border-radius: 1px;
+  width: 100%;
+  height: 110px;
+  color: #0c60ee;
+  padding: 15px;
+}

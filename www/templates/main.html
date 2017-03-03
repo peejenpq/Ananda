@@ -1,0 +1,44 @@
+<ion-view>
+
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-title>
+      Smart App
+    </ion-nav-title>
+    <ion-nav-buttons side="left">
+      <button class="button icon-left ion-ios-undo" ng-click="btnBack()">Logout</button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content>
+    <div>
+    <img src="img/ananda.jpg" class="imgCenter">
+    </div>
+
+    <div class="list">
+      <div class="item item-icon-left item-icon-right btnGreen" ng-click="btnHome()">
+        <p class="text-center">Home</p>
+        <i class="icon ion-ios-home"></i>
+        <i class="icon ion-ios-arrow-forward"></i>
+      </div>
+      <br>
+      <div class="item item-icon-left item-icon-right btnBlue" ng-click="btnRepair()">
+        <p class="text-center">Repair</p>
+        <i class="icon ion-ios-compose"></i>
+        <i class="icon ion-ios-arrow-forward"></i>
+      </div>
+      <br>
+      <div class="item item-icon-left item-icon-right btnBlue" ng-click="btnNews()">
+        <p class="text-center">News</p>
+        <i class="icon ion-ios-chatboxes"></i>
+        <i class="icon ion-ios-arrow-forward"></i>
+      </div>
+    </div>
+
+  </ion-content>
+
+  <ion-footer-bar class="footerlogin">
+
+    <p class="footertext">Develop By CU</p>
+
+  </ion-footer-bar>
+</ion-view>
